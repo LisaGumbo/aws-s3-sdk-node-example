@@ -8,7 +8,10 @@ const params = {
   Key: "second_practice.txt", // The name of the object. For example, 'sample_upload.txt'.
   Body: "Hello Lisa, this is your second practice of creating a bucket using an API call", // The content of the object. For example, 'Hello world!".
   ACL: 'public-read',
+  "ContentType": "text/html",
 };
+
+
 
 const run = () => {
   s3Client
